@@ -10,7 +10,7 @@ void draw(){
 }
 
 void drawCircle(float x, float y, float d){
-  stroke(0);
+  noStroke();
   pushMatrix();
   ellipse(x,y,d,d);
   if (d > 1){
